@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb rgb(4, 105, 4);
+}
+.header {
+    background-color:#006400 ;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 2px solid #006400 ;
+}
+.navbar {
+    background-color: #004d00;
+    padding: 10px;
+    text-align: center;
+}
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 6px 12px;
+    font-size: 15px;
+
+}
+.navbar a :active, 
+.navbar a:hover {
+  color: yellow;
+    background-color: white;
+    border-radius: 5px;
+
+}
+.hero {
+    background-image: url("../imagee/Kibale\ Chimpanze.jpg");
+    background-size: contain;
+    background-position:center;
+    height: 450px;
+    position: relative;
+}
+.look{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0;
+    height: 100%;
+    color: white;
+
+
+}
+.text content {
+    margin: auto;
+    width: 900px;
+
+}
+.text content h2 {
+    margin-top: 20px;
+    font-size: 25px;
+    color:white;
+
+}
+.text content ul {
+    margin-top: 10px;
+    padding: auto;
+    float: right;
+}
+.personal{
+    color: white;
+    font-size: medium;
+    text-align:left ;
+
+}
+.footer {
+    background-color: rgb(5, 78, 5);
+    color: white;
+    text-align: center;
+    margin-top: none;
+    padding: 20px, 0;
+    border-top: 2px #144014 solid;
+
+
+
+}
