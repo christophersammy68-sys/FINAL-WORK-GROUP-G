@@ -45,4 +45,8 @@ function setupTeamHover(){
 }
 console.log("Team hover done", setupTeamHover())
 // Initialize functions when DOM is fully loaded
+function initializePage() {
+    showGreeting();
+    setupTeamHover();
+}
 document.addEventListener('DOMContentLoaded', initializePage);
