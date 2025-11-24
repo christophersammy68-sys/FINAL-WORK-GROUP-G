@@ -2,18 +2,18 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: rgb rgb(4, 105, 4);
+    background-color:  rgb(4, 105, 4);
 }
 .header {
-    background-color:#006400 ;
+    background-color:rgb(0, 100, 0) ;
     color: white;
     padding: 20px;
     text-align: center;
     font-size: 24px;
-    border-bottom: 2px solid #006400 ;
+    border-bottom: 2px solid rgb(0, 100, 0) ;
 }
 .navbar {
-    background-color: #004d00;
+    background-color: rgb(0, 77, 0);
     padding: 10px;
     text-align: center;
 }
@@ -42,6 +42,7 @@ body {
 
 }
 .hero {
+    border-top: ( 2px solid)
     background-image: url("../imagee/Kibale\ Chimpanze.jpg");
     background-size: contain;
     background-position:center;
