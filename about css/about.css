@@ -42,7 +42,7 @@ body {
 
 }
 .hero {
-    border-top: ( 2px solid)
+    border-top: 2px solid;
     background-image: url("../imagee/Kibale\ Chimpanze.jpg");
     background-size: contain;
     background-position:center;
